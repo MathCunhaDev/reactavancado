@@ -1,9 +1,7 @@
 type HomeProps = {
-  title: string;
+  title: string
 }
 
 export default function Home({ title = 'React Avançado' }: HomeProps) {
-  return (
-    <div>{title}</div>
-  )
+  return <div>{title}</div>
 }
